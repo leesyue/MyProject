@@ -1,0 +1,20 @@
+<template>
+  <div class="about">
+    <h>about</h>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'about',
+  data(){
+    return{
+
+    }
+  }
+}
+</script>
+
+<style>
+
+</style>
