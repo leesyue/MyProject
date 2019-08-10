@@ -7,7 +7,7 @@
             <input v-model="password" class="login_text" type="password" placeHolder="请输入您的密码" >
         </div>
         <div>
-            <input type="text" class="login_text" v-model="verifyImg" placeHolder="请输入您的验证码"> <img @touchstart="handleToVerifyImg" src="/api2/users/verifyImg">
+            <input type="text" class="login_text" v-model="verifyImg" placeHolder="请输入您的验证码"> 
         </div>
         <div class="login_btn">
             <input type="submit" value="登录" @touchstart="handleToLogin">

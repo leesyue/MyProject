@@ -1,8 +1,8 @@
 <template>
     <div id="main">
-        <Header title="我的喵喵" />
+        <Header title="个人中心" />
         <div id="content">
-            <router-view />
+            <Login />
         </div>
         <TabBar />
     </div>
